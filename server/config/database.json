@@ -1,0 +1,24 @@
+{
+    "development": {
+        "username": "react1",
+        "password": "121073ms",
+        "database": "react_sequelize",
+        "host": "http://localhost:3306/",
+        "dialect": "mysql"
+    },
+    "test": {
+        "username": "root",
+        "password": "",
+        "database": "react_sequelize_test",
+        "host": "",
+        "dialect": "mysql"
+    },
+    "production": {
+        "username": "root",
+        "password": "",
+        "database": "react_sequelize_prod",
+        "host": "",
+        "dialect": "mysql"
+    }
+
+}
