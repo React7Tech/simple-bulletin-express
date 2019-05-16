@@ -74,7 +74,8 @@ componentDidMount() {
       ```
 
 ## Giving Back
-
+```
 Please Visit my [Website](https://react7.press) to checkout more of my latest development.
 
 -R. Aidy aka JustEd
+```
