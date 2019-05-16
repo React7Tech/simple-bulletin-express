@@ -46,7 +46,7 @@ The key to use an Express backend with a project created with `create-react-app`
 
 This tells Webpack development server to proxy our API requests to our API server, given that our Express server is running on **localhost:5000**
 
-## Async/ Await |  Folder path ./client/src/App.js 
+## Async/ Await ~ folder path ./client/src/App.js 
 CallApi method was create to interact with GET Express API route, then call this method in componentDidMount and finally set the state to the API response, which fetch '/api/hello' path from express route.
 ```
 componentDidMount() {
@@ -73,7 +73,13 @@ componentDidMount() {
       },
       ```
 ```
-## Giving Back
+## Install dependencies to sequelize.js server path 
+```
+We'll be installing mysql2. If you are using a different database, please install the appropriate package (pg pg-hstore | sqlite3 | tedious // MSSQL). That will be the only thing you need to change — the rest of this example is platform agnostic.
+
+npm install --save body-parser express mysql2 sequelize
+```
+## Giving back
 
 Please Visit my [Website](https://react7.press) to checkout more of my latest development.
 
