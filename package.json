@@ -1,27 +1,39 @@
 {
-  "name": "test",
-  "version": "0.0.0",
-  "private": true,
+  "name": "simple-bulletin-express",
+  "version": "1.0.0",
+  "description": "Example API on using create-react-app with a Node Express Backend & Async/ Await",
+  "author": {
+    "name": "JustEd",
+    "twitter": "@_ppcms1",
+    "url": "https://react7.press/"
+  },
+  "license": "MIT",
   "scripts": {
-    "start": "node ./bin/www"
+    "client": "cd client && yarn start",
+    "server": "nodemon server.js",
+    "dev": "concurrently --kill-others-on-fail \"yarn server\" \"yarn client\"",
+    "dev:server": "cd client && yarn build && cd .. && yarn start",
+    "start": "node server.js",
+    "heroku-postbuild": "cd client && npm install && npm install --only=dev --no-shrinkwrap && npm run build"
   },
   "dependencies": {
-    "app-root-path": "^1.0.0",
-    "body-parser": "~1.8.1",
-    "connect-busboy": "0.0.2",
-    "connect-flash": "^0.1.1",
-    "connect-multiparty": "^1.2.5",
-    "cookie-parser": "~1.3.3",
-    "debug": "~2.0.0",
-    "express": "~4.9.0",
-    "jade": "~1.6.0",
-    "mkdirp": "^0.5.0",
-    "moment": "^2.8.4",
-    "morgan": "~1.3.0",
-    "mysql": "^2.5.4",
-    "passport": "^0.2.1",
-    "passport-local": "^1.0.0",
-    "pwd": "0.0.4",
-    "serve-favicon": "~2.1.3"
-  }
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4"
+  },
+  "devDependencies": {
+    "concurrently": "^4.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/react7press/simplereact7bb.git"
+  },
+  "bugs": {
+    "url": "https://github.com/react7press/simplereact7bb/issues"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "create-react-app"
+  ]
 }
+
