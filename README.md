@@ -1,5 +1,5 @@
 # A Sample Test API Built on Express, Sequelize and Async/ Await Documentation.
-[image2](https://github.com/React7Tech/simple-bulletin-express/blob/master/screenshort01.png)
+[image](https://github.com/React7Tech/simple-bulletin-express/blob/master/screenshort01.png)
 
 For Socar Malaysia Test Assessment by JustEd @ R. Aidy.
 
