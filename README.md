@@ -2,7 +2,8 @@
 
 For Socar Malaysia Test Assessment by JustEd @ R. Aidy.
 
-This simple-bulletin-express project was bootstrapped with:
+This simple-bulletin-express project 
+was bootstrapped with:
 [https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css](https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css).
 
 > Example on using bootstrap.min.css with a Node Express for the frontend(client)
