@@ -46,7 +46,8 @@ The key to use an Express backend with a project created with `create-react-app`
 
 This tells Webpack development server to proxy our API requests to our API server, given that our Express server is running on **localhost:5000**
 
-## Async/ Await | in ./client/src/App.js 
+## Async/ Await |  Folder path ./client/src/App.js 
+CallApi method was create to interact with GET Express API route, then call this method in componentDidMount and finally set the state to the API response, which will be Assalam From Express.
 ```
 componentDidMount() {
     this.callApi()
