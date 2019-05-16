@@ -1,7 +1,8 @@
 # A Sample Test API Built on Express, Sequelize and Async/ Await Documentation.
 
 For Socar Malaysia Test Assessment by JustEd @ R. Aidy.
-This simpleReact7BB project was bootstrapped with:
+
+This simple-bulletin-express project was bootstrapped with:
 [https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css](https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css).
 
 > Example on using create-react-app with a Node Express Backend
